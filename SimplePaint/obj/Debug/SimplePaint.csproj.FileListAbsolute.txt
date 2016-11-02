@@ -1,0 +1,17 @@
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\bin\Debug\SimplePaint.exe.config
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\bin\Debug\SimplePaint.exe
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\bin\Debug\SimplePaint.pdb
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\SimplePaint.csprojResolveAssemblyReference.cache
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\MainWindow.g.cs
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\App.g.cs
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\SimplePaint_MarkupCompile.cache
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\SimplePaint_MarkupCompile.lref
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\MainWindow.baml
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\SimplePaint.g.resources
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\SimplePaint.Properties.Resources.resources
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\SimplePaint.csproj.GenerateResource.Cache
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\SimplePaint.exe
+c:\users\maxxboehme\documents\visual studio 2015\Projects\SimplePaint\SimplePaint\obj\Debug\SimplePaint.pdb
+C:\Users\maxxboehme\gittest\SimplePaint\SimplePaint\bin\Debug\SimplePaint.exe.config
+C:\Users\maxxboehme\gittest\SimplePaint\SimplePaint\obj\Debug\SimplePaint.exe
+C:\Users\maxxboehme\gittest\SimplePaint\SimplePaint\obj\Debug\SimplePaint.pdb

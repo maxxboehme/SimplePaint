@@ -1,0 +1,58 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Simple Paint" Height="500" Width="600">
+    <DockPanel>
+        <StackPanel Width="150" DockPanel.Dock="Left" Background="Gray">
+            <StackPanel Margin="5" Background="White">
+                <TextBlock HorizontalAlignment="Center">Brush</TextBlock>
+                <StackPanel Margin="2">
+                    <TextBlock Text="Brush Size"/>
+                    <Slider Name="BrushSlider" Minimum="1" Maximum="100" TickPlacement="BottomRight" TickFrequency="5" ValueChanged="BrushSizeSlider_ValueChanged"/>
+                    <TextBlock Text="Brush Color" />
+                    <ComboBox Name="BrushColorCombo" SelectionChanged="BrushColorCombo_SelectionChanged">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Rectangle Fill="{Binding Name}" Width="16" Height="16" Margin="0,2,5,2" />
+                                    <TextBlock Text="{Binding Name}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                    <TextBlock Text="Brush State"/>
+                    <ComboBox Name="BrushStateCombo" SelectedIndex="0" SelectionChanged="BrushStateCombo_SelectionChanged">
+                        <ComboBoxItem>
+                            <TextBlock Text="Ink"/>
+                        </ComboBoxItem>
+                        <ComboBoxItem>
+                            <TextBlock Text="Select"/>
+                        </ComboBoxItem>
+                        <ComboBoxItem>
+                            <TextBlock Text="Erase"/>
+                        </ComboBoxItem>
+                        <ComboBoxItem>
+                            <TextBlock Text="Erase Stroke"/>
+                        </ComboBoxItem>
+                    </ComboBox>
+                    <TextBlock Text="Brush Shapes"/>
+                    <ComboBox Name="BrushShapesCombo" SelectedIndex="0" SelectionChanged="BrushShapesCombo_SelectionChanged">
+                        <ComboBoxItem>
+                            <TextBlock Text="Circle"/>
+                        </ComboBoxItem>
+                        <ComboBoxItem>
+                            <TextBlock Text="Square"/>
+                        </ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <Border BorderThickness="2" BorderBrush="Gray" >
+            <InkCanvas Name="PaintCanvas"/>
+        </Border>
+    </DockPanel>
+</Window>
